@@ -10,7 +10,7 @@ cloudinary.config({
 export const uploadToCloudinary = async (path) => {
   const options = {
     use_filename: true,
-    unique_filename: true,
+    unique_filename: true, 
     overwrite: false,
     resource_type: "auto",
   };
